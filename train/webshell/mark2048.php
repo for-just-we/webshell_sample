@@ -1,0 +1,4 @@
+<?php
+$tkl = "ZWNobyAiR2FaYSBTaGVsbCBWIDMgPGJyIC8+PGEgaHJlZj0naHR0cDovL2dhemEtaGFja2VyLm5ldCcgdGFyZ2V0PSdfYmxhbmsnPkdhemEgSGFDS2VSIFRlYW08L2E+PGJyIC8+IERldmVsb3BlZCBieSA8YSBocmVmPSdodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9kci50a2wnIHRhcmdldD0nX2JsYW5rJz5US0w8L2E+IjsK";
+eval(base64_decode($tkl));
+?>

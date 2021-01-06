@@ -1,0 +1,3 @@
+<?php 
+$_SERVER["SCRIPT_FILENAME"];
+?>

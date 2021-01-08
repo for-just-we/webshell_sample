@@ -7,6 +7,7 @@ function auth(){
 		$your_pass = sha1(md5($p['pass']));
 				
 		setcookie("pass", $your_pass);
+	}
 }
 
 auth();

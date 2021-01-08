@@ -7,5 +7,5 @@ function ex($in) {
 	return $res;
 }
 
-ex(escapeshellarg($_POST['p2'])));
+ex(escapeshellarg($_POST['p2']));
 ?>

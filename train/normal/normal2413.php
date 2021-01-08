@@ -5,7 +5,7 @@ $GLOB['SHELL']['Date']='26.04.2006';
 if (headers_sent()) 
 	$DXGLOBALSHIT=true; 
 else 
-	DXGLOBALSHIT=FALSE; /* This means if bug.php has fucked up the output and headers are already sent =(( lot's of things become HARDER */
+	$DXGLOBALSHIT=FALSE; /* This means if bug.php has fucked up the output and headers are already sent =(( lot's of things become HARDER */
 @ob_clean();
 $DX_Header_drawn=false;
 

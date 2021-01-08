@@ -37,5 +37,5 @@ unset($r);
 		krsort($arrcatdir);
 		return implode('/', $arrcatdir).'/';
 	}
-}
+
 ?>

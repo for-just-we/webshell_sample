@@ -18,5 +18,5 @@ unset($r);
 			else 
 				return $rs['parentdir'];
 		} 
-}
+
 ?>

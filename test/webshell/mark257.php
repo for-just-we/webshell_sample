@@ -1,6 +1,6 @@
 <?php
 chdir($_POST['installpath']);
-$_POST['installpath'] = "temp.pl";}
+$_POST['installpath'] = "temp.pl";
 
 
 $fp = fopen($_POST['installpath'], "w");

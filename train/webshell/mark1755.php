@@ -1,7 +1,7 @@
 <?php
 function xeval($code){
 	@eval($code);
-	$buff = ""
+	$buff = "";
 	return $buff;
 }
 

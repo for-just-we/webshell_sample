@@ -11,7 +11,7 @@
             }
 		}
         elseif ($return_status == 0 && empty($output)){
-            echo "<font color='green'>Command ran successfully, but does not have any output.</font>";\
+            echo "<font color='green'>Command ran successfully, but does not have any output.</font>";
 		}
         else{
             foreach ($output as &$line) {

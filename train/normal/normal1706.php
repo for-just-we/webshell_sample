@@ -42,7 +42,7 @@ class messagequeue {
 			
 			$url = $v['url'].$v['apifilename'];
 
-			if (CHARSET != $v['charset'])) {
+			if (CHARSET != $v['charset']) {
 					$noticedata_send['username'] = iconv(CHARSET, $v['charset'], $noticedata_send['username']);
 			}
 			$tmp_s = strstr($url, '?') ? '&' : '?';

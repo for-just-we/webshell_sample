@@ -4,6 +4,6 @@
 	echo $arr1[0];
 
 	// 关系型数组：类似于json格式
-	$arr2 = $array(`name`=>`smyhvae`, `age`=>`26`);
-	echo $arr2[`name`];  //获取时，通过  key 来获取
+	$arr2 = array('name'=>'smyhvae', 'age'=>'26');
+	echo $arr2['name'];  //获取时，通过  key 来获取
 ?>

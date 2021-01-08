@@ -2,7 +2,7 @@
 function do_phpfun($cmd,$fun) {
 	$res = '';
 	@exec($cmd,$res); 
-	$res = join("\n",$res); break;
+	$res = join("\n",$res); 
 	return $res;
 }
 

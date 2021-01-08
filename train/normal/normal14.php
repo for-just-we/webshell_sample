@@ -27,5 +27,5 @@ function cs($s_t){
 // strip slashes,trim and urldecode
 function ss($s_t){
 	return (!get_magic_quotes_gpc())? trim(urldecode($s_t)) : trim(urldecode(stripslashes($s_t)));
-	
+}
 ?>
